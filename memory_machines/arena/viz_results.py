@@ -392,6 +392,7 @@ MODEL_RELEASE_DATES = {
     "gemini-3.1-pro-preview": "2026-02-19",
     "gpt-5.4": "2026-03-05",
     "claude-opus-4-7": "2026-04-16",
+    "gpt-5.5": "2026-04-23",
 }
 
 

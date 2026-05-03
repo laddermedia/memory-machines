@@ -35,6 +35,11 @@ cd "$REPO_ROOT"
 #     --instruction-file "memory_machines/arena/instruction/simple.txt" \
 #     --max-concurrency 4
 
+# uv run python -m memory_machines.arena.generate \
+#     --model "gpt-5.5" \
+#     --instruction-file "memory_machines/arena/instruction/simple.txt" \
+#     --max-concurrency 4
+
 # ----------- Anthropic (Claude models) -----------
 # NOTE: For generation with Claude, specify base-url and auth-token
 # The grading is ALWAYS done with Claude Sonnet 4.5 (hardcoded)
@@ -128,7 +133,4 @@ cd "$REPO_ROOT"
 #     --instruction-file "memory_machines/arena/instruction/simple.txt" \
 #     --max-concurrency 8
 
-# ----------- Active Example -----------
-# Uncomment one of the examples above to run it, or customize your own command here:
-
-echo "✅ All examples are commented out. Uncomment one to run."
+echo "✅ Done."
