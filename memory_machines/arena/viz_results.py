@@ -394,6 +394,7 @@ MODEL_RELEASE_DATES = {
     "claude-opus-4-7": "2026-04-16",
     "gpt-5.5": "2026-04-23",
     "claude-opus-4-8": "2026-05-28",
+    "claude-fable-5": "2026-06-09",
 }
 
 
@@ -423,6 +424,7 @@ MODEL_PRETTY_NAMES = {
     "gpt-5.4": "GPT-5.4",
     "claude-opus-4-7": "Claude Opus 4.7",
     "claude-opus-4-8": "Claude Opus 4.8",
+    "claude-fable-5": "Claude Fable 5",
 }
 
 
