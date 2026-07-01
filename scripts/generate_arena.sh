@@ -99,6 +99,13 @@ cd "$REPO_ROOT"
 #     --instruction-file "memory_machines/arena/instruction/simple.txt" \
 #     --max-concurrency 4
 
+# uv run python -m memory_machines.arena.generate \
+#     --model "claude-sonnet-5" \
+#     --base-url "https://api.anthropic.com/v1/" \
+#     --auth-token "$ANTHROPIC_API_KEY" \
+#     --instruction-file "memory_machines/arena/instruction/simple.txt" \
+#     --max-concurrency 4
+
 # ----------- Google (Gemini models) -----------
 # NOTE: Gemini supports reasoning-effort parameter
 # uv run python -m memory_machines.arena.generate \
